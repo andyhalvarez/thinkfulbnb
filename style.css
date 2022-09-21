@@ -1,5 +1,9 @@
 /* -------  General Styles ------- */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -150,6 +154,8 @@ footer p {
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   form select,
@@ -167,7 +173,8 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 50px;
+    padding: 20px 50px;
+    flex-grow: 1;
   }
 
   .group {
